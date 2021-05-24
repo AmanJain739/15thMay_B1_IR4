@@ -2,7 +2,7 @@
 ###########################################################################################################################################
 
 #PROGRAM 1
-
+print("PROGRAM 1: ")
 numbers = [386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615,
 953, 345, 399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949,
 687, 217, 815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445,
@@ -13,19 +13,19 @@ for i in numbers:
         break
     elif(i%2==0):
         print(i)
-
+print("_"*15+'END'+"_"*15+'\n\n')
 ############################################################################################################################################
 
 #PROGRAM 2
-
+print("PROGRAM 2: ")
 color_list_1=set(["White", "Black", "Red"])
 color_list_2=set(["Red", "Green"])
 print(color_list_1-color_list_2)
-
+print("_"*15+'END'+"_"*15+'\n\n')
 ############################################################################################################################################
 
 #Program 3
-
+print("PROGRAM 3: ")
 alphabets="abcdefghijklmnopqrstuvwxyz"
 flag=0
 string=input("Enter a String: ")
@@ -38,38 +38,38 @@ if(flag==0):
     print("Given String is a Pangram")
 elif(flag==-1):
     print("Given String is not a Pangram")
-
+print("_"*15+'END'+"_"*15+'\n\n')
 ############################################################################################################################################
 
 #Program 4
-
+print("PROGRAM 4: ")
 n=int(eval(input("Enter a number: ")))
 result=n+((n*10)+n)+((n*100)+(n*10)+n)
 print(result)
-
+print("_"*15+'END'+"_"*15+'\n\n')
 ############################################################################################################################################
 
 #Program 5
-
+print("PROGRAM 5: ")
 n=input("Enter the input: ")
 result=n.split('#')
 list1=[int(i) for i in list(result[0].split())]
 list2=[int(i) for i in list(result[1].split())]
 print(list1)
 print(list2)
-
+print("_"*15+'END'+"_"*15+'\n\n')
 ############################################################################################################################################
 
 #Program 6
-
+print("PROGRAM 6: ")
 sequence=input("Enter the sequence: ")
 result=sequence.split(",")
 print(",".join(sorted(result)))
-
+print("_"*15+'END'+"_"*15+'\n\n')
 ############################################################################################################################################
 
 #Program 7
-
+print("PROGRAM 7: ")
 d = {'Student': ['Rahul', 'Kishore', 'Vidhya', 'Raakhi'],'Marks': [57,87,67,79]}
 count=0
 for i in d['Marks']:
@@ -79,11 +79,11 @@ for i in d['Marks']:
          count=count
          break
 print(d['Student'][count])
-
+print("_"*15+'END'+"_"*15+'\n\n')
 ##############################################################################################################################################
 
 #Program 8
-
+print("PROGRAM 8: ")
 alphabets="abcdefghijklmnopqrstuvwxyz"
 numbers="0123456789"
 string=input("Enter the sentence: ")
@@ -96,11 +96,11 @@ for i in string:
         count1+=1
 print("LETTERS ",count)
 print("DIGITS ",count1)
-
+print("_"*15+'END'+"_"*15+'\n\n')
 ################################################################################################################################################
 
 #Program 9
-
+print("PROGRAM 9: ")
 d = {'Name': ['Akash', 'Soniya', 'Vishakha' , 'Akshay', 'Rahul', 'Vikas'],'Subject': ['Python', 'Java', 'Python', 'C', 'Python', 'Java'],'Ratings': [8.4, 7.8, 8, 9, 8.2, 5.6]}
 n=input("Enter Subject: ")
 list1=[]
@@ -118,11 +118,11 @@ for i in list1:
     newdata['Subject'].append(d['Subject'][i])
     newdata['Ratings'].append(d['Ratings'][i])
 print(newdata)
-
+print("_"*15+'END'+"_"*15+'\n\n')
 ##################################################################################################################################################
 
 #Program 10
-
+print("PROGRAM 10: ")
 n = int(input("Enter the range upto: "))
 def generator(n):
     for i in range(n):
@@ -131,11 +131,11 @@ def generator(n):
         else:
             continue
 print(list(generator(n)))
-
+print("_"*15+'END'+"_"*15+'\n\n')
 ##################################################################################################################################################
 
 #Program 11
-
+print("PROGRAM 11: ")
 import math
 initial_position = [0,0]
 while True:
@@ -160,7 +160,7 @@ while True:
         c=int(round(math.sqrt(initial_position[1]**2+initial_position[0]**2)))
         print("Distance from initial position is: ",c)
         break
-
+print("_"*15+'END'+"_"*15+'\n\n')
 #####################################################################################################################################################
 
 
